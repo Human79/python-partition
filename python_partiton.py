@@ -4,7 +4,7 @@ import psutil
 
 x=int(input("Type (1) to get parition data or (2) to benchmark the disk"))
 
-if x== 1:
+if x==1:
    print("Getting partition data")
    for disk in psutil.disk_partitions():
     if disk.fstype:
@@ -24,6 +24,6 @@ if __name__ == "__main__":
         pyuac.runAsAdmin()
     else:        
         main()  # Already an admin here.
-elif x== 2:
+elif x==2:
    main()
 
