@@ -1,7 +1,7 @@
 # python-partition
 Simple tool to benchmark and get partiton data using python
 
-## Dependencies
+## Dependencies (only for Windows)
 
 - ```pip install psutil```
 
